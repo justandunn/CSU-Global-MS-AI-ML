@@ -74,7 +74,7 @@ def print_menu(cart):
         elif choice == 'c':
             name = input("Enter item name to modify: ")
             quantity = int(input("Enter new quantity: "))
-            cart.modify_item(ItemToPurchase(name, quantity=quantity))
+            cart.modify_item(ItemToPurchase(name, 0, quantity, ""))
         elif choice == 'o':
             cart.print_total()
         elif choice == 'i':
