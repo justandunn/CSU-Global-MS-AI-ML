@@ -1,0 +1,28 @@
+@startuml
+left to right direction
+
+actor Citizen
+actor "Repair Crew" as Crew
+actor "Public Works Admin" as Admin
+actor "Claims Dept." as Claims
+
+rectangle PHTRS {
+  usecase "Report Pothole" as U1
+  usecase "Check Pothole Status" as U2
+  usecase "Report Damage" as U3
+  usecase "Assign Work Order" as U4
+  usecase "Update Repair Status" as U5
+  usecase "Log Hours/Materials" as U6
+  usecase "Generate Repair Report" as U7
+  usecase "Process Damage Claim" as U8
+}
+
+Citizen --> U1
+Citizen --> U2
+Citizen --> U3
+Admin --> U4
+Crew --> U5
+Crew --> U6
+Admin --> U7
+Claims --> U8
+@enduml
