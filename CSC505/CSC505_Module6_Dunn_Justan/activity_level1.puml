@@ -1,0 +1,10 @@
+@startuml
+title Stepwise Refinement - Level 1 (Task Scheduling)
+start
+:Collect Input (tasks, algorithm, quantum);
+:Choose Scheduling Algorithm;
+:Run Scheduler;
+:Compute Metrics (waiting, turnaround, avg);
+:Display Results (timeline + metrics);
+stop
+@enduml

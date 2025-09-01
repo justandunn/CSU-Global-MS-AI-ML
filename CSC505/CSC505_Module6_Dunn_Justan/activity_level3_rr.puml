@@ -1,0 +1,24 @@
+@startuml
+title Stepwise Refinement - Level 3 (Round Robin Details)
+start
+:remaining_time = burst_time for each task;
+:time = 0;
+while (Any task with remaining_time > 0?) is (yes)
+  :pop next task from ready queue;
+  if (task.remaining > quantum) then (yes)
+    :run = quantum;
+    :task.remaining -= quantum;
+    :time += quantum;
+    :append (task, run) to timeline;
+    :push task back to queue;
+  else (no)
+    :run = task.remaining;
+    :time += run;
+    :task.remaining = 0;
+    :append (task, run) to timeline;
+    :record completion time;
+  endif
+endwhile (no)
+:Compute waiting/turnaround from completion & burst;
+stop
+@enduml
