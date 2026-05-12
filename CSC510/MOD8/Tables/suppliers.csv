@@ -1,0 +1,29 @@
+supplier_id,supplier_name,reliability_score,average_lead_time_days,variability_index
+44832,Bellota Mexico,0.5,45,25
+44801,"Chongqing Dajiang Power Equipment Co., Ltd. (Ducar)",1,90,15
+4231,Cixi City Best Power Tools Co Ltd (Gbest),1,120,10
+1977,"Cixi Huazhijie Plastic Product Co., Ltd",1,120,10
+44831,Ducar Technology Company Limited,1,90,15
+2031,Foshan City Nanhai Yiqing Metal Product Co. Ltd,1,120,10
+2061,"Jiangmen Shun Ming Household Co., Ltd (Alibec)",1,120,10
+3514,Jiaxing Yat Trading Co. Ltd,1,120,10
+44800,"Jinhua D&D Garden Tools Co., Ltd.",1,120,10
+3029,"Kingxxel Tools Co., Ltd",1,120,10
+1972,Ningbo E-Tech Electrical Industrial Co. Ltd,1,120,10
+725,"Ningbo Fusle Pumps Co., Ltd",1,120,10
+4279,Ningbo Joyo Garden Tools Co Ltd,1,120,10
+44783,"Qingdao Eagle Power Industrial Co., Limited",1,120,10
+44830,"Shenzhen Lidewei Supply Chain Co., Ltd",1,120,10
+44837,"Shenzhen Qusart Technology Co., Ltd.",1,120,10
+1913,Taizhou Oute Tools Manufacturing Co. Ltd,1,120,10
+2059,Tangshan Changzhi Farm Impls And Tools Dml Ltd,1,120,10
+1971,"Te Sheng Blacksmith Works Co., Ltd.",1,120,10
+44791,"United Jumbo Co., Ltd",1,90,15
+44829,Vietnam Fortress Tools Jsc,1,90,15
+1959,"Yuyao Norton Electric Appliance Co., Ltd.",1,120,10
+1039,Zhejiang Saige Garden Machinery Co,1,120,10
+2053,Zhejiang Top Power Technology,1,120,10
+2100,Zhejiang Yat Electrical Appliance,1,120,10
+44646,"Zhejiang Zhongjian Technology Co.,Ltd",1,120,10
+2065,"Zhongshan Heli Manufacturing Co., Ltd",1,120,10
+44836,"Zhongshang Baishun Hardware Manufacturer Co.,Ltd",1,120,10

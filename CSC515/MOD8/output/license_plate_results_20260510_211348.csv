@@ -1,0 +1,4 @@
+image_label,image_path,detection_status,raw_detections,processed_detections,filtered_detections,final_detections_after_nms,primary_cascade,primary_detection_score,primary_selection_score,primary_character_candidates
+Russian Plate 1,C:\Users\culex\Documents\CSU-Global\CSU-Global-MS-AI-ML\CSC515\MOD8\russian_plate_1.jpg,Detected,13,14,26,2,haarcascade_russian_plate_number.xml,124.571,287.371,4
+Russian Plate 2,C:\Users\culex\Documents\CSU-Global\CSU-Global-MS-AI-ML\CSC515\MOD8\russian_plate_2.jpg,Detected,11,13,24,9,haarcascade_license_plate_rus_16stages.xml,147.761,324.328,5
+Non-Russian Plate,C:\Users\culex\Documents\CSU-Global\CSU-Global-MS-AI-ML\CSC515\MOD8\non_russian_plate.jpg,Detected,49,50,99,34,haarcascade_license_plate_rus_16stages.xml,146.481,323.944,8
