@@ -1,0 +1,21 @@
+﻿CSC525 Module 3 Critical Thinking Project
+Option 2: Simple Polynomial Regression in Python
+==========================================================
+Dataset: years_experience_salary.csv
+Rows loaded: 30
+Model: degree-2 NumPy polynomial least-squares regression
+Equation: salary = (31.7249 * years^2) + (9,289.9326 * years) + (26,266.9415)
+Train/Test split: 24 training rows / 6 test rows
+
+Model evaluation on held-out test data
+R-squared: 0.9572
+RMSE: $5,026.08
+MAE: $3,835.38
+
+Sample salary predictions
+ 2.5 years of experience -> predicted salary $49,690.05
+ 5.0 years of experience -> predicted salary $73,509.73
+ 7.5 years of experience -> predicted salary $97,725.96
+10.0 years of experience -> predicted salary $122,338.76
+
+Saved regression figure: C:\Users\culex\Documents\CSU-Global\CSU-Global-MS-AI-ML\CSC525\MOD3\CTP\outputs\polynomial_regression_fit.png
