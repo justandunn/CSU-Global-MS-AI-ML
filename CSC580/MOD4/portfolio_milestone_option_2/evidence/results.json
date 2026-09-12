@@ -1,0 +1,16 @@
+{
+  "tensorflow_version": "2.21.0",
+  "seed": 101,
+  "rows": 392,
+  "training_rows": 314,
+  "test_rows": 78,
+  "epochs_completed": 184,
+  "best_epoch": 174,
+  "best_validation_mae": 2.2996914386749268,
+  "test_mae": 1.7895007133483887,
+  "test_mse": 5.320413112640381,
+  "test_rmse": 2.30660207071796,
+  "mean_error": -0.0718763033548991,
+  "error_std": 2.3204043382174255,
+  "median_error": 0.26390886306762695
+}

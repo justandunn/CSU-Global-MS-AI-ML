@@ -1,0 +1,31 @@
+{
+  "seed": 580,
+  "python_version": "3.13.9",
+  "tensorflow_version": "2.21.0",
+  "keras_version": "3.15.1",
+  "numpy_version": "2.5.1",
+  "configuration": {
+    "n_features": 51,
+    "input_steps": 6,
+    "output_steps": 3,
+    "lstm_units": 128,
+    "training_samples": 20000,
+    "validation_samples": 2000,
+    "test_samples": 100,
+    "batch_size": 64,
+    "maximum_epochs": 40,
+    "epochs_completed": 40
+  },
+  "training": {
+    "final_loss": 3.269782246206887e-05,
+    "final_accuracy": 1.0,
+    "final_validation_loss": 0.0003004759782925248,
+    "final_validation_accuracy": 1.0
+  },
+  "evaluation": {
+    "correct_sequences": 99,
+    "total_sequences": 100,
+    "exact_match_accuracy": 0.99
+  },
+  "elapsed_seconds": 79.49866979999933
+}

@@ -1,0 +1,13 @@
+.venv/
+node_modules/
+qa_dependencies/
+download_parts/
+docx_render/
+logs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+MOD*/**/outputs/*
+!MOD*/**/outputs/.gitkeep
+MOD*/**/submission/*.zip
