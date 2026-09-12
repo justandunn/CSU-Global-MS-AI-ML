@@ -1,0 +1,14 @@
+{
+  "seed": 580,
+  "epochs": 50,
+  "batch_size": 32,
+  "training_rows": 1000,
+  "testing_rows": 400,
+  "input_features": 9,
+  "scaled_test_mse": 0.00011518710380187258,
+  "test_mse_dollars_squared": 8428580.318252677,
+  "test_rmse_dollars": 2903.201735713982,
+  "test_mae_dollars": 2151.912783203125,
+  "proposed_product_prediction_dollars": 265141.34375,
+  "tensorflow_version": "2.21.0"
+}

@@ -1,0 +1,117 @@
+CSC580 Final Portfolio Option 2 - Encoder-Decoder LSTM
+==============================================================
+Python: 3.13.9
+TensorFlow: 2.21.0
+Keras: 3.15.1
+NumPy: 2.5.1
+Seed: 580
+Training shape: source=(20000, 6, 51), decoder=(20000, 3, 51), target=(20000, 3, 51)
+Validation shape: source=(2000, 6, 51), decoder=(2000, 3, 51), target=(2000, 3, 51)
+Epochs completed: 40
+Final validation loss: 0.000300
+Final validation token accuracy: 100.0000%
+Held-out exact-match accuracy: 99/100 (99.00%)
+Elapsed seconds: 79.50
+
+Held-out predictions
+--------------------------------------------------------------
+X=[36, 12, 42, 9, 39, 18] y=[42, 12, 36] yhat=[42, 12, 36] exact_match=True
+X=[25, 7, 33, 41, 49, 35] y=[33, 7, 25] yhat=[33, 7, 25] exact_match=True
+X=[29, 47, 14, 42, 35, 38] y=[14, 47, 29] yhat=[14, 47, 29] exact_match=True
+X=[39, 5, 27, 17, 2, 43] y=[27, 5, 39] yhat=[27, 5, 39] exact_match=True
+X=[44, 1, 34, 37, 34, 8] y=[34, 1, 44] yhat=[34, 1, 44] exact_match=True
+X=[32, 35, 5, 48, 6, 46] y=[5, 35, 32] yhat=[5, 35, 32] exact_match=True
+X=[34, 18, 2, 47, 14, 29] y=[2, 18, 34] yhat=[2, 18, 34] exact_match=True
+X=[43, 32, 17, 18, 45, 3] y=[17, 32, 43] yhat=[17, 32, 43] exact_match=True
+X=[44, 6, 19, 37, 15, 36] y=[19, 6, 44] yhat=[19, 6, 44] exact_match=True
+X=[28, 25, 5, 46, 9, 3] y=[5, 25, 28] yhat=[5, 25, 28] exact_match=True
+X=[27, 24, 22, 19, 45, 5] y=[22, 24, 27] yhat=[22, 24, 27] exact_match=True
+X=[40, 6, 26, 33, 15, 19] y=[26, 6, 40] yhat=[26, 6, 40] exact_match=True
+X=[3, 33, 37, 43, 31, 13] y=[37, 33, 3] yhat=[37, 33, 3] exact_match=True
+X=[1, 20, 30, 33, 12, 15] y=[30, 20, 1] yhat=[30, 20, 1] exact_match=True
+X=[32, 44, 17, 24, 50, 1] y=[17, 44, 32] yhat=[17, 44, 32] exact_match=True
+X=[22, 47, 33, 7, 4, 3] y=[33, 47, 22] yhat=[33, 47, 22] exact_match=True
+X=[47, 37, 10, 36, 25, 41] y=[10, 37, 47] yhat=[10, 37, 47] exact_match=True
+X=[49, 31, 33, 23, 14, 38] y=[33, 31, 49] yhat=[33, 31, 49] exact_match=True
+X=[39, 48, 33, 7, 20, 8] y=[33, 48, 39] yhat=[33, 48, 39] exact_match=True
+X=[30, 24, 42, 35, 43, 20] y=[42, 24, 30] yhat=[42, 24, 30] exact_match=True
+X=[39, 26, 7, 11, 16, 42] y=[7, 26, 39] yhat=[7, 26, 39] exact_match=True
+X=[50, 25, 18, 38, 24, 2] y=[18, 25, 50] yhat=[18, 25, 50] exact_match=True
+X=[1, 19, 12, 29, 21, 41] y=[12, 19, 1] yhat=[12, 19, 1] exact_match=True
+X=[6, 22, 41, 4, 15, 33] y=[41, 22, 6] yhat=[41, 22, 6] exact_match=True
+X=[45, 45, 38, 39, 43, 2] y=[38, 45, 45] yhat=[38, 45, 45] exact_match=True
+X=[44, 19, 49, 32, 41, 2] y=[49, 19, 44] yhat=[49, 19, 44] exact_match=True
+X=[43, 42, 3, 42, 2, 7] y=[3, 42, 43] yhat=[42, 3, 43] exact_match=False
+X=[16, 41, 37, 40, 38, 29] y=[37, 41, 16] yhat=[37, 41, 16] exact_match=True
+X=[21, 30, 3, 17, 23, 19] y=[3, 30, 21] yhat=[3, 30, 21] exact_match=True
+X=[28, 37, 38, 38, 39, 7] y=[38, 37, 28] yhat=[38, 37, 28] exact_match=True
+X=[28, 39, 41, 10, 43, 43] y=[41, 39, 28] yhat=[41, 39, 28] exact_match=True
+X=[28, 48, 23, 6, 32, 45] y=[23, 48, 28] yhat=[23, 48, 28] exact_match=True
+X=[1, 30, 37, 13, 40, 48] y=[37, 30, 1] yhat=[37, 30, 1] exact_match=True
+X=[20, 4, 33, 46, 15, 21] y=[33, 4, 20] yhat=[33, 4, 20] exact_match=True
+X=[33, 35, 30, 10, 13, 40] y=[30, 35, 33] yhat=[30, 35, 33] exact_match=True
+X=[45, 11, 32, 41, 42, 40] y=[32, 11, 45] yhat=[32, 11, 45] exact_match=True
+X=[26, 36, 12, 42, 7, 7] y=[12, 36, 26] yhat=[12, 36, 26] exact_match=True
+X=[33, 15, 24, 38, 16, 11] y=[24, 15, 33] yhat=[24, 15, 33] exact_match=True
+X=[21, 40, 35, 1, 35, 39] y=[35, 40, 21] yhat=[35, 40, 21] exact_match=True
+X=[23, 16, 12, 12, 47, 31] y=[12, 16, 23] yhat=[12, 16, 23] exact_match=True
+X=[25, 21, 20, 5, 27, 34] y=[20, 21, 25] yhat=[20, 21, 25] exact_match=True
+X=[50, 46, 16, 2, 26, 32] y=[16, 46, 50] yhat=[16, 46, 50] exact_match=True
+X=[13, 43, 45, 42, 47, 25] y=[45, 43, 13] yhat=[45, 43, 13] exact_match=True
+X=[7, 49, 19, 4, 49, 30] y=[19, 49, 7] yhat=[19, 49, 7] exact_match=True
+X=[50, 39, 3, 41, 26, 15] y=[3, 39, 50] yhat=[3, 39, 50] exact_match=True
+X=[31, 43, 41, 11, 47, 25] y=[41, 43, 31] yhat=[41, 43, 31] exact_match=True
+X=[26, 46, 42, 3, 27, 23] y=[42, 46, 26] yhat=[42, 46, 26] exact_match=True
+X=[28, 41, 17, 19, 23, 8] y=[17, 41, 28] yhat=[17, 41, 28] exact_match=True
+X=[6, 21, 8, 26, 26, 42] y=[8, 21, 6] yhat=[8, 21, 6] exact_match=True
+X=[17, 10, 12, 13, 8, 38] y=[12, 10, 17] yhat=[12, 10, 17] exact_match=True
+X=[49, 47, 36, 36, 23, 39] y=[36, 47, 49] yhat=[36, 47, 49] exact_match=True
+X=[41, 5, 49, 39, 50, 6] y=[49, 5, 41] yhat=[49, 5, 41] exact_match=True
+X=[34, 12, 8, 48, 9, 36] y=[8, 12, 34] yhat=[8, 12, 34] exact_match=True
+X=[49, 15, 4, 41, 48, 14] y=[4, 15, 49] yhat=[4, 15, 49] exact_match=True
+X=[39, 38, 7, 38, 6, 17] y=[7, 38, 39] yhat=[7, 38, 39] exact_match=True
+X=[40, 45, 34, 6, 25, 35] y=[34, 45, 40] yhat=[34, 45, 40] exact_match=True
+X=[4, 1, 16, 38, 25, 36] y=[16, 1, 4] yhat=[16, 1, 4] exact_match=True
+X=[9, 35, 18, 34, 25, 3] y=[18, 35, 9] yhat=[18, 35, 9] exact_match=True
+X=[43, 36, 39, 11, 44, 14] y=[39, 36, 43] yhat=[39, 36, 43] exact_match=True
+X=[45, 23, 31, 11, 15, 31] y=[31, 23, 45] yhat=[31, 23, 45] exact_match=True
+X=[45, 7, 48, 34, 2, 14] y=[48, 7, 45] yhat=[48, 7, 45] exact_match=True
+X=[21, 26, 23, 28, 9, 8] y=[23, 26, 21] yhat=[23, 26, 21] exact_match=True
+X=[50, 37, 10, 16, 47, 32] y=[10, 37, 50] yhat=[10, 37, 50] exact_match=True
+X=[6, 20, 31, 19, 37, 10] y=[31, 20, 6] yhat=[31, 20, 6] exact_match=True
+X=[19, 2, 33, 21, 17, 43] y=[33, 2, 19] yhat=[33, 2, 19] exact_match=True
+X=[29, 49, 26, 17, 28, 25] y=[26, 49, 29] yhat=[26, 49, 29] exact_match=True
+X=[3, 48, 15, 20, 7, 34] y=[15, 48, 3] yhat=[15, 48, 3] exact_match=True
+X=[13, 43, 36, 24, 40, 1] y=[36, 43, 13] yhat=[36, 43, 13] exact_match=True
+X=[38, 33, 27, 8, 5, 25] y=[27, 33, 38] yhat=[27, 33, 38] exact_match=True
+X=[1, 15, 10, 43, 29, 25] y=[10, 15, 1] yhat=[10, 15, 1] exact_match=True
+X=[25, 35, 46, 35, 42, 21] y=[46, 35, 25] yhat=[46, 35, 25] exact_match=True
+X=[17, 29, 7, 35, 12, 31] y=[7, 29, 17] yhat=[7, 29, 17] exact_match=True
+X=[34, 31, 17, 8, 6, 22] y=[17, 31, 34] yhat=[17, 31, 34] exact_match=True
+X=[48, 24, 2, 39, 7, 4] y=[2, 24, 48] yhat=[2, 24, 48] exact_match=True
+X=[34, 21, 7, 9, 36, 22] y=[7, 21, 34] yhat=[7, 21, 34] exact_match=True
+X=[32, 20, 47, 7, 36, 22] y=[47, 20, 32] yhat=[47, 20, 32] exact_match=True
+X=[14, 50, 6, 40, 6, 3] y=[6, 50, 14] yhat=[6, 50, 14] exact_match=True
+X=[33, 35, 42, 50, 6, 39] y=[42, 35, 33] yhat=[42, 35, 33] exact_match=True
+X=[1, 31, 42, 8, 39, 48] y=[42, 31, 1] yhat=[42, 31, 1] exact_match=True
+X=[3, 25, 40, 13, 13, 10] y=[40, 25, 3] yhat=[40, 25, 3] exact_match=True
+X=[2, 30, 9, 48, 9, 3] y=[9, 30, 2] yhat=[9, 30, 2] exact_match=True
+X=[27, 2, 5, 25, 1, 1] y=[5, 2, 27] yhat=[5, 2, 27] exact_match=True
+X=[14, 5, 36, 2, 31, 39] y=[36, 5, 14] yhat=[36, 5, 14] exact_match=True
+X=[6, 50, 36, 19, 11, 50] y=[36, 50, 6] yhat=[36, 50, 6] exact_match=True
+X=[43, 15, 42, 44, 18, 19] y=[42, 15, 43] yhat=[42, 15, 43] exact_match=True
+X=[8, 2, 33, 33, 10, 44] y=[33, 2, 8] yhat=[33, 2, 8] exact_match=True
+X=[25, 46, 37, 14, 26, 24] y=[37, 46, 25] yhat=[37, 46, 25] exact_match=True
+X=[42, 44, 26, 36, 29, 17] y=[26, 44, 42] yhat=[26, 44, 42] exact_match=True
+X=[15, 21, 15, 8, 18, 50] y=[15, 21, 15] yhat=[15, 21, 15] exact_match=True
+X=[41, 27, 30, 15, 12, 29] y=[30, 27, 41] yhat=[30, 27, 41] exact_match=True
+X=[44, 24, 31, 3, 16, 13] y=[31, 24, 44] yhat=[31, 24, 44] exact_match=True
+X=[45, 24, 8, 48, 28, 40] y=[8, 24, 45] yhat=[8, 24, 45] exact_match=True
+X=[34, 5, 5, 30, 9, 17] y=[5, 5, 34] yhat=[5, 5, 34] exact_match=True
+X=[26, 11, 26, 50, 28, 18] y=[26, 11, 26] yhat=[26, 11, 26] exact_match=True
+X=[36, 19, 13, 10, 27, 29] y=[13, 19, 36] yhat=[13, 19, 36] exact_match=True
+X=[12, 50, 28, 25, 10, 19] y=[28, 50, 12] yhat=[28, 50, 12] exact_match=True
+X=[22, 22, 43, 48, 6, 14] y=[43, 22, 22] yhat=[43, 22, 22] exact_match=True
+X=[20, 8, 27, 41, 1, 20] y=[27, 8, 20] yhat=[27, 8, 20] exact_match=True
+X=[49, 47, 11, 15, 37, 21] y=[11, 47, 49] yhat=[11, 47, 49] exact_match=True
+X=[20, 20, 19, 28, 5, 44] y=[19, 20, 20] yhat=[19, 20, 20] exact_match=True

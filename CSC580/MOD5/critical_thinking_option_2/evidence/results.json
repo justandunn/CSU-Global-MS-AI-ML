@@ -1,0 +1,66 @@
+{
+  "seed": 0,
+  "python_version": "3.13.9",
+  "numpy_version": "2.5.1",
+  "pandas_version": "3.0.5",
+  "scikit_learn_version": "1.9.0",
+  "training_rows": 118,
+  "test_rows": 32,
+  "accuracy": 0.9375,
+  "confusion_matrix": [
+    [
+      13,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      2
+    ],
+    [
+      0,
+      0,
+      12
+    ]
+  ],
+  "feature_importance": {
+    "sepal length (cm)": 0.08474010289429795,
+    "sepal width (cm)": 0.022461263894393204,
+    "petal length (cm)": 0.4464851467243143,
+    "petal width (cm)": 0.4463134864869946
+  },
+  "classification_report": {
+    "setosa": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 13.0
+    },
+    "versicolor": {
+      "precision": 1.0,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.8333333333333334,
+      "support": 7.0
+    },
+    "virginica": {
+      "precision": 0.8571428571428571,
+      "recall": 1.0,
+      "f1-score": 0.9230769230769231,
+      "support": 12.0
+    },
+    "accuracy": 0.9375,
+    "macro avg": {
+      "precision": 0.9523809523809524,
+      "recall": 0.9047619047619048,
+      "f1-score": 0.9188034188034188,
+      "support": 32.0
+    },
+    "weighted avg": {
+      "precision": 0.9464285714285714,
+      "recall": 0.9375,
+      "f1-score": 0.9346955128205129,
+      "support": 32.0
+    }
+  }
+}

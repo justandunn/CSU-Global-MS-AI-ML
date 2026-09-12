@@ -1,0 +1,26 @@
+{
+  "tensorflow_version": "2.21.0",
+  "seed": 101,
+  "epochs_per_model": 1000,
+  "rows_after_cleaning": 392,
+  "training_rows": 314,
+  "test_rows": 78,
+  "feature_count": 9,
+  "mse_loss_model": {
+    "loss": 7.007656574249268,
+    "mae": 1.94404137134552,
+    "mse": 7.007656574249268
+  },
+  "mae_loss_model": {
+    "loss": 1.8633229732513428,
+    "mae": 1.8633229732513428,
+    "mse": 5.71432638168335
+  },
+  "mse_loss_model_rmse": 2.6471978721374922,
+  "mae_loss_model_rmse": 2.390465724850149,
+  "mse_model_mean_residual": -0.0450208394955366,
+  "mse_model_residual_std": 2.663946783109121,
+  "mse_model_best_validation_mae": 2.2996914386749268,
+  "mse_model_best_validation_mse": 8.696019172668457,
+  "mae_model_best_validation_mae": 2.1969923973083496
+}
