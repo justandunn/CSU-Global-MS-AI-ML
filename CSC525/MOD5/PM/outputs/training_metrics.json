@@ -1,0 +1,37 @@
+{
+  "generated_at_utc": "2026-06-21T04:50:09.327625+00:00",
+  "input_path": "C:\\Users\\culex\\Documents\\CSU-Global\\CSU-Global-MS-AI-ML\\CSC525\\MOD5\\PM\\data\\custom_enterprise_faq_sop_corpus.csv",
+  "model_type": "TF-IDF cosine-similarity retrieval baseline",
+  "feature_representation": "lowercase 1-1 n-gram TF-IDF vectors",
+  "training_text_column": "combined_text",
+  "train_rows": 50,
+  "test_rows": 30,
+  "distinct_routes": 10,
+  "source_groups": 80,
+  "vocabulary_size": 212,
+  "hyperparameters": {
+    "random_seed": 525,
+    "test_group_ratio": 0.4,
+    "ngram_range": [
+      1,
+      1
+    ],
+    "max_features": 2500,
+    "similarity_threshold": 0.2
+  },
+  "metrics": {
+    "test_rows": 30,
+    "correct_rows": 30,
+    "accuracy": 1.0,
+    "macro_precision": 1.0,
+    "macro_recall": 1.0,
+    "macro_f1": 1.0,
+    "mean_similarity": 0.7323,
+    "min_similarity": 0.6197,
+    "max_similarity": 0.8714
+  },
+  "fallback_analysis": {
+    "below_similarity_threshold": 0,
+    "threshold": 0.2
+  }
+}

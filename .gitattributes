@@ -1,0 +1,11 @@
+*.docx binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
+
+# Preserve assignment datasets and Markdown hard breaks during archive checks.
+*.csv whitespace=-trailing-space
+*.md whitespace=-trailing-space
+*.txt whitespace=-trailing-space

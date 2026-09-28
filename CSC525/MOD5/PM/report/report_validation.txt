@@ -1,0 +1,11 @@
+Module 5 PM report validation - Module 4 dataset aligned redo
+DOCX exists: True size=40223
+PDF exists: True size=8161
+PDF pages: 5
+DOCX paragraphs: 36
+DOCX contains word/document.xml: True
+DOCX document.xml parseable: True
+Missing required phrases in PDF text: []
+Missing required phrases in DOCX text: []
+Visual PDF QA: passed page image inspection for pages 1-5.
+DOCX visual render QA: skipped because LibreOffice/soffice is unavailable in this runtime.

@@ -1,0 +1,16 @@
+Module 5 CTP augmentation validation
+Raw rows: 135
+Raw rows with Z flag: 0
+Intents represented: 27
+Intents without exactly 5 raw rows: 0
+Augmented output rows: 405
+Summary output rows: 405
+Required metadata columns missing: []
+Empty instruction rows: 0
+Source rows without exactly 3 output rows: 0
+Label mismatches for category/intent/response: 0
+Augmentation type counts: {'customer_support_frame': 68, 'next_step_frame': 68, 'original': 135, 'phrase_replacement': 67, 'polite_request_frame': 67}
+
+Sample augmented records:
+- polite_request_frame: I need support with the following request: question about cancelling order {{Order Number}}
+- customer_support_frame: I am contacting customer support because question about cancelling order {{Order Number}}

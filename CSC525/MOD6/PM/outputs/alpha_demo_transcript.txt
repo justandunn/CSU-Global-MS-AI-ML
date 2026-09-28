@@ -1,0 +1,42 @@
+Module 6 Portfolio Milestone Alpha Chatbot Demo Transcript
+Generated UTC: 2026-06-21T18:47:50.355795+00:00
+
+Exchange 1
+User: I cannot get into my online account after changing my password.
+Alpha chatbot: route=account_access; confidence=0.3561; status=accepted
+Alpha chatbot response: Verify the user identity, confirm the account status, and route the case to account access support if portal access cannot be restored.
+
+Exchange 2
+User: Can I get a copy of the invoice for my last order?
+Alpha chatbot: route=billing_invoice; confidence=0.4673; status=accepted
+Alpha chatbot response: Review the invoice number, payment status, billing contact, and account balance before routing unresolved issues to billing support.
+
+Exchange 3
+User: The product has a technical error and freezes after setup.
+Alpha chatbot: route=technical_support; confidence=0.4594; status=accepted
+Alpha chatbot response: Collect the error details, confirm the affected product or system, and route the case to technical support if basic troubleshooting fails.
+
+Exchange 4
+User: I need to reschedule my service appointment for next week.
+Alpha chatbot: route=service_scheduling; confidence=0.5258; status=accepted
+Alpha chatbot response: Check service availability, confirm the customer location and preferred time, and schedule or reschedule the appointment.
+
+Exchange 5
+User: Can this purchase be returned or exchanged?
+Alpha chatbot: route=returns_refunds; confidence=0.5350; status=accepted
+Alpha chatbot response: Confirm eligibility, check the purchase record, and provide the approved return, refund, or exchange workflow.
+
+Exchange 6
+User: Where is the current user guide for this workflow?
+Alpha chatbot: route=training_materials; confidence=0.3658; status=accepted
+Alpha chatbot response: Provide the approved training resource, confirm the topic, and direct the user to the current knowledge-base material.
+
+Exchange 7
+User: I need a manager to call me about an unresolved complaint.
+Alpha chatbot: route=human_escalation; confidence=0.4127; status=accepted
+Alpha chatbot response: Acknowledge the request, collect the case context, and transfer the conversation to the appropriate human support queue.
+
+Exchange 8
+User: What is your stock ticker price today?
+Alpha chatbot: route=clarification_or_human_escalation; confidence=0.3276; status=fallback
+Alpha chatbot response: I am not confident that this message matches the approved support topics. Please rephrase the request or send it to a human agent.

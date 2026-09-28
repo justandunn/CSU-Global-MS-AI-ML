@@ -1,0 +1,17 @@
+{
+  "generated_at_utc": "2026-06-20T13:57:45.025888+00:00",
+  "input_path": "C:\\Users\\culex\\Documents\\CSU-Global\\CSU-Global-MS-AI-ML\\CSC525\\MOD5\\CTP\\data\\raw\\bitext_customer_support_seed.csv",
+  "output_path": "C:\\Users\\culex\\Documents\\CSU-Global\\CSU-Global-MS-AI-ML\\CSC525\\MOD5\\CTP\\data\\augmented\\bitext_customer_support_augmented.csv",
+  "text_column": "instruction",
+  "source_rows_read": 135,
+  "output_rows_written": 405,
+  "augmented_rows_created": 270,
+  "augmentation_method_counts": {
+    "customer_support_frame": 68,
+    "next_step_frame": 68,
+    "original": 135,
+    "phrase_replacement": 67,
+    "polite_request_frame": 67
+  },
+  "random_seed": 525
+}

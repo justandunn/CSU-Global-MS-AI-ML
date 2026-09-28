@@ -1,0 +1,117 @@
+{
+  "package": "CSC525_Module8PP_Dunn_Justan",
+  "generated_at_utc": "2026-07-02T14:58:07.708527+00:00",
+  "file_count": 22,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3569,
+      "sha256": "2137c84137e350c4830754bdd70f09a9e32ceb3bb5609e010de43669c60c9308"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 77,
+      "sha256": "5fa920ef3f788c358f41dbb9ca1c6813aaad434dfed9e1db4a644509137b805a"
+    },
+    {
+      "path": "run_chatbot.bat",
+      "bytes": 183,
+      "sha256": "747b0244e05fc43723f997ed9f24327307d569e2a7a850b415089caa282353cf"
+    },
+    {
+      "path": "chatbot.py",
+      "bytes": 6491,
+      "sha256": "c6ce88044c2853517fe1eabb0db5e14609d5495e2a292696b01950a773d23ba6"
+    },
+    {
+      "path": "chatbot_model.py",
+      "bytes": 9507,
+      "sha256": "7fadb39bbff0e516566e6bbf1944ffbffecd7b514265aee60ce15ba9c22b45d2"
+    },
+    {
+      "path": "build_final_datasets.py",
+      "bytes": 10657,
+      "sha256": "b68ce34e1ad84ae30e8401609db88f326e9b40c8356e9b96d3b02edb241414c9"
+    },
+    {
+      "path": "train_final_chatbot.py",
+      "bytes": 13939,
+      "sha256": "b4539c5a4e512bbb3f74806589739bab3824e7bebab60351dc05e982b2cca3ad"
+    },
+    {
+      "path": "validate_submission.py",
+      "bytes": 5889,
+      "sha256": "522fcdb3e4c998bceef7fd0dfca52a21204325d68731ccefecbfb2296e559e37"
+    },
+    {
+      "path": "data/training_corpus.csv",
+      "bytes": 42814,
+      "sha256": "01b764891b0531548aec5c7069ccaeaa535a6f81b318cc491e86caa3a4e003c5"
+    },
+    {
+      "path": "data/calibration_messages.csv",
+      "bytes": 5973,
+      "sha256": "e1be2a99eb1092be869d08869ff4037bf38b1704e1de01ed0175a1dbaf548774"
+    },
+    {
+      "path": "data/test_messages.csv",
+      "bytes": 6920,
+      "sha256": "24a82ccf32edc01be78773575d9d0370fbbdd1ef3a43bb0a461e0a525f96a7e9"
+    },
+    {
+      "path": "model/chatbot_model.json",
+      "bytes": 595052,
+      "sha256": "463f7fe53b0b47485ec288d055c3403bc2872ffa5de42ba1d84446539323dc16"
+    },
+    {
+      "path": "outputs/final_metrics.json",
+      "bytes": 2169,
+      "sha256": "7fa52c435971bcc51c887f1490531f7c8079a7fc3580ac87028108d3e6dc5f63"
+    },
+    {
+      "path": "outputs/hyperparameter_sweep.csv",
+      "bytes": 63302,
+      "sha256": "610caec8f5145c2a15f524aed1c5793dff48738b9638cf1f70e8009e4d5c8649"
+    },
+    {
+      "path": "outputs/calibration_predictions.csv",
+      "bytes": 13053,
+      "sha256": "0b37fb28d076b8265b02fcc9985c2abc16fb2fc5577ca878c83e2e0e80a82f2d"
+    },
+    {
+      "path": "outputs/test_predictions.csv",
+      "bytes": 15241,
+      "sha256": "972fc9e3c040d8a04ea6add19a191c1a40988f9fae5ef2f3158b2b780fb2a5d6"
+    },
+    {
+      "path": "outputs/confusion_matrix.csv",
+      "bytes": 941,
+      "sha256": "9dd4a4d53548bb94229aac6f27714dfbd97b051af8a3b8de24a87a5ce1f870c2"
+    },
+    {
+      "path": "outputs/final_demo_transcript.txt",
+      "bytes": 2517,
+      "sha256": "1aacd83d01c7cde7e210b0ae1cd624a607e033e74cdc0878b891f8ff493d3933"
+    },
+    {
+      "path": "outputs/validation_check.txt",
+      "bytes": 593,
+      "sha256": "7d07a26e6a4bedc1fa1f7f70f949967cb43019bffce20df81530ff898b3eb789"
+    },
+    {
+      "path": "outputs/docx_a11y_report.json",
+      "bytes": 152,
+      "sha256": "2302e5fa2dba89ddd76f71d2a4e7114ce85eadf7e071824bd5cafc8baca13076"
+    },
+    {
+      "path": "report/CSC525_Module8PP_Dunn_Justan.docx",
+      "bytes": 43976,
+      "sha256": "109bd4b00446d1852199600ac215793282e23a7429fb746fa7dd9b314ef5ed58"
+    },
+    {
+      "path": "report/CSC525_Module8PP_Dunn_Justan.pdf",
+      "bytes": 16481,
+      "sha256": "db801cf6b1edd60b1a1a53e81548ff7ec62369d77daaeda1bd09ee04b5bbaf42"
+    }
+  ]
+}

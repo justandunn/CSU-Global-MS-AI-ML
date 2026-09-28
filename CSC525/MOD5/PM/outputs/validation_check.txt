@@ -1,0 +1,16 @@
+Module 5 PM retrieval training validation
+Missing output files: []
+Corpus rows: 80
+Train rows: 50
+Test rows: 30
+Distinct routes: 10
+Vocabulary size: 212
+Text column: combined_text
+Accuracy: 1.0
+Macro F1: 1.0
+Mean similarity: 0.7323
+Route report rows: 10
+Confusion matrix nonzero cells: 10
+Retrieval prediction rows: 30
+Hyperparameter sweep runs: 6
+Train/test source-group leakage count: 0

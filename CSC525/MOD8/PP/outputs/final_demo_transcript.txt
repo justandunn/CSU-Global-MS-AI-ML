@@ -1,0 +1,42 @@
+CSC525 Module 8 Final Chatbot Demonstration
+Generated UTC: 2026-07-02T14:57:57.806243+00:00
+
+Exchange 1
+User: I reset my password and now the portal will not accept my login.
+Support bot: Verify the user identity, confirm the account status, and route the case to account access support if portal access cannot be restored.
+Decision: Account Access | confidence=high | similarity=0.2762 | margin=0.1413
+
+Exchange 2
+User: There is a fee on my latest bill that I do not recognize.
+Support bot: Review the invoice number, payment status, billing contact, and account balance before routing unresolved issues to billing support.
+Decision: Billing and Invoice | confidence=high | similarity=0.3756 | margin=0.2725
+
+Exchange 3
+User: I am really frustrated because my shipment has not arrived.
+Support bot: Look up the order number, confirm fulfillment status, and provide the latest approved shipment or delivery update.
+Decision: Order Status | confidence=high | similarity=0.2645 | margin=0.0750
+
+Exchange 4
+User: Can we move the technician appointment to Friday morning?
+Support bot: Check service availability, confirm the customer location and preferred time, and schedule or reschedule the appointment.
+Decision: Service Scheduling | confidence=high | similarity=0.4356 | margin=0.3464
+
+Exchange 5
+User: The application freezes when I open the reporting screen.
+Support bot: Collect the error details, confirm the affected product or system, and route the case to technical support if basic troubleshooting fails.
+Decision: Technical Support | confidence=high | similarity=0.2604 | margin=0.1609
+
+Exchange 6
+User: Please send me the current training guide for this process.
+Support bot: Provide the approved training resource, confirm the topic, and direct the user to the current knowledge-base material.
+Decision: Training Materials | confidence=high | similarity=0.4359 | margin=0.1929
+
+Exchange 7
+User: The automated steps did not work, so I need a live representative.
+Support bot: Acknowledge the request, collect the case context, and transfer the conversation to the appropriate human support queue.
+Decision: Escalation | confidence=high | similarity=0.2804 | margin=0.1531
+
+Exchange 8
+User: Play some relaxing music.
+Support bot: I am not confident that this request matches an approved support topic. Please rephrase the question or send it to a human support agent.
+Decision: Clarification or Human Escalation | confidence=low | similarity=0.0795 | margin=0.0116

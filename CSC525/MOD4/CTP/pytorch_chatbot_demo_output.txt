@@ -1,0 +1,43 @@
+CSC525 Module 4 - Reduced PyTorch Chatbot Demo
+Based on the PyTorch Chatbot Tutorial, adapted for classroom use.
+PyTorch version: 2.12.0+cpu
+CUDA available: False
+Course root: C:\Users\culex\Documents\CSU-Global\CSU-Global-MS-AI-ML\CSC525
+Corpus directory: C:\Users\culex\Documents\CSU-Global\CSU-Global-MS-AI-ML\CSC525\MOD4\CTP\movie_dialogs_extracted\movie-corpus
+
+Using device: cpu
+
+Utterances loaded: 304,713
+Conversations loaded: 83,097
+Filtered sentence pairs (max 10 words): 101,704
+Pairs after rare-word trimming (min_count=3): 98,740
+Vocabulary size (including PAD/SOS/EOS): 19,296
+Subsampled to 12,000 pairs for faster CPU training.
+Training tensor pairs: 12,000
+
+Training for 300 iterations (hidden_size=256, teacher_forcing=0.5)...
+Iteration 1/300 | average loss: 9.8396
+Iteration 50/300 | average loss: 6.5127
+Iteration 100/300 | average loss: 5.2117
+Iteration 150/300 | average loss: 6.6450
+Iteration 200/300 | average loss: 6.4840
+Iteration 250/300 | average loss: 7.0200
+Iteration 300/300 | average loss: 7.2926
+
+Sample greedy-decoding responses:
+Human: hello
+Bot: nothing.
+
+Human: how are you
+Bot: nothing.
+
+Human: what is your name
+Bot: nothing.
+
+Human: i love you
+Bot: nothing.
+
+Human: goodbye
+Bot: nothing.
+
+Output log saved to: C:\Users\culex\Documents\CSU-Global\CSU-Global-MS-AI-ML\CSC525\MOD4\CTP\pytorch_chatbot_demo_output.txt

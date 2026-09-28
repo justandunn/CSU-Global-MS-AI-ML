@@ -1,0 +1,53 @@
+message_id,message,expected_route,case_type
+calibration_account_access_01,I changed my password yesterday and now the portal will not let me in.,account_access,in_domain
+calibration_account_access_02,Why does the website keep saying my sign-in is invalid?,account_access,in_domain
+calibration_account_access_03,Please restore access to my online profile.,account_access,in_domain
+calibration_account_access_04,My user account appears to be locked.,account_access,in_domain
+calibration_billing_invoice_01,Could you email me the receipt for the payment I made last week?,billing_invoice,in_domain
+calibration_billing_invoice_02,The amount due on this statement does not look correct.,billing_invoice,in_domain
+calibration_billing_invoice_03,I need to change the person who receives our invoices.,billing_invoice,in_domain
+calibration_billing_invoice_04,Why was my card charged twice for the same purchase?,billing_invoice,in_domain
+calibration_human_escalation_01,I have tried the automated steps and need a real person now.,human_escalation,in_domain
+calibration_human_escalation_02,Please have a supervisor review this unresolved problem.,human_escalation,in_domain
+calibration_human_escalation_03,Can a support representative call me back today?,human_escalation,in_domain
+calibration_human_escalation_04,This complaint needs to be escalated beyond the chatbot.,human_escalation,in_domain
+calibration_onboarding_help_01,I just joined the company and do not know which setup tasks come first.,onboarding_help,in_domain
+calibration_onboarding_help_02,What should a newly created user complete during orientation?,onboarding_help,in_domain
+calibration_onboarding_help_03,Please send the checklist for getting a new employee started.,onboarding_help,in_domain
+calibration_onboarding_help_04,Where are the initial setup instructions for a first-time user?,onboarding_help,in_domain
+calibration_order_status_01,My package was supposed to arrive yesterday. Where is it?,order_status,in_domain
+calibration_order_status_02,Can you tell me whether order 4821 has shipped?,order_status,in_domain
+calibration_order_status_03,The tracking page has not changed in several days.,order_status,in_domain
+calibration_order_status_04,I am still waiting and need an updated delivery estimate.,order_status,in_domain
+calibration_policy_lookup_01,Which company rule applies before this request can be approved?,policy_lookup,in_domain
+calibration_policy_lookup_02,Please locate the official procedure for handling this situation.,policy_lookup,in_domain
+calibration_policy_lookup_03,I need the current compliance guideline before I respond.,policy_lookup,in_domain
+calibration_policy_lookup_04,Where is the controlled SOP that explains the required approvals?,policy_lookup,in_domain
+calibration_returns_refunds_01,The item is not right for me. How can I send it back?,returns_refunds,in_domain
+calibration_returns_refunds_02,When should the money from my cancelled purchase be credited?,returns_refunds,in_domain
+calibration_returns_refunds_03,Can I swap this product for a different model?,returns_refunds,in_domain
+calibration_returns_refunds_04,Please help me determine whether I am still inside the return period.,returns_refunds,in_domain
+calibration_service_scheduling_01,Could we move the technician visit from Tuesday to Thursday?,service_scheduling,in_domain
+calibration_service_scheduling_02,I need to book a repair appointment at my location.,service_scheduling,in_domain
+calibration_service_scheduling_03,What times are open for a service call next week?,service_scheduling,in_domain
+calibration_service_scheduling_04,Please cancel the current appointment and choose another day.,service_scheduling,in_domain
+calibration_technical_support_01,The application crashes every time I try to save my work.,technical_support,in_domain
+calibration_technical_support_02,My device stopped responding after the latest setup step.,technical_support,in_domain
+calibration_technical_support_03,I keep seeing an error code and need troubleshooting help.,technical_support,in_domain
+calibration_technical_support_04,A feature is broken even after I restarted the software.,technical_support,in_domain
+calibration_training_materials_01,Is there a video or manual that teaches this workflow?,training_materials,in_domain
+calibration_training_materials_02,Please point me to the latest knowledge article for this tool.,training_materials,in_domain
+calibration_training_materials_03,Our team needs documentation before using the new process.,training_materials,in_domain
+calibration_training_materials_04,Where can I find a tutorial that explains this task?,training_materials,in_domain
+calibration___out_of_domain___01,What is the weather forecast for this weekend?,__out_of_domain__,out_of_domain
+calibration___out_of_domain___02,Tell me the current stock price for a technology company.,__out_of_domain__,out_of_domain
+calibration___out_of_domain___03,Write a short poem about summer.,__out_of_domain__,out_of_domain
+calibration___out_of_domain___04,Who won the basketball game last night?,__out_of_domain__,out_of_domain
+calibration___out_of_domain___05,What is the capital city of Brazil?,__out_of_domain__,out_of_domain
+calibration___out_of_domain___06,Can you recommend a restaurant near the airport?,__out_of_domain__,out_of_domain
+calibration___out_of_domain___07,How many miles are in a marathon?,__out_of_domain__,out_of_domain
+calibration___out_of_domain___08,Please translate hello into Japanese.,__out_of_domain__,out_of_domain
+calibration___out_of_domain___09,What movies are playing downtown?,__out_of_domain__,out_of_domain
+calibration___out_of_domain___10,Give me a recipe for chocolate cake.,__out_of_domain__,out_of_domain
+calibration___out_of_domain___11,Set an alarm for seven tomorrow morning.,__out_of_domain__,out_of_domain
+calibration___out_of_domain___12,Explain how photosynthesis works.,__out_of_domain__,out_of_domain
