@@ -1,0 +1,10 @@
+version: 1
+created: '2026-09-28'
+project_id: csu-global-ms-ai-ml-academic
+display_name: CSU Global MS AI/ML coursework
+git_profile: school
+bridge_status: scaffolded
+vault_reference_path: 10_Sources/Raw/Project References/csu-global-ms-ai-ml-academic
+vault_connection:
+  default: AGENT_OS_VAULT_PATH or _wiki
+  create_wiki_junction: separate reviewed step
