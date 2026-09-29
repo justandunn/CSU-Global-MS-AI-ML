@@ -1,0 +1,25 @@
+Module 6 PM validation
+Missing required files: []
+Corpus rows: 80
+Distinct routes: 10
+Alpha demo exchanges: 8
+Accepted responses: 7
+Fallback responses: 1
+Training snapshot train rows: 50
+Training snapshot test rows: 30
+Training snapshot accuracy: 1.0
+Training snapshot macro F1: 1.0
+PDF page count: 6
+Phrase 'Option #2: NLP Chatbot Project Alpha' in DOCX: True
+Phrase 'Option #2: NLP Chatbot Project Alpha' in PDF: True
+Phrase 'closed-domain' in DOCX: True
+Phrase 'closed-domain' in PDF: True
+Phrase 'TF-IDF' in DOCX: True
+Phrase 'TF-IDF' in PDF: True
+Phrase 'RSiCS' in DOCX: True
+Phrase 'RSiCS' in PDF: True
+Phrase 'WikiQA' in DOCX: True
+Phrase 'WikiQA' in PDF: True
+Phrase 'human escalation' in DOCX: True
+Phrase 'human escalation' in PDF: True
+Validation passed: True

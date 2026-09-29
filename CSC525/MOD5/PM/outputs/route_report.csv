@@ -1,0 +1,11 @@
+route_label,precision,recall,f1,support
+account_access,1.0,1.0,1.0,3
+billing_invoice,1.0,1.0,1.0,3
+human_escalation,1.0,1.0,1.0,3
+onboarding_help,1.0,1.0,1.0,3
+order_status,1.0,1.0,1.0,3
+policy_lookup,1.0,1.0,1.0,3
+returns_refunds,1.0,1.0,1.0,3
+service_scheduling,1.0,1.0,1.0,3
+technical_support,1.0,1.0,1.0,3
+training_materials,1.0,1.0,1.0,3

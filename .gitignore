@@ -1,3 +1,19 @@
 
 # Agentic OS local vault bridge
 _wiki/
+
+# Local Python and notebook caches
+**/__pycache__/
+**/*.py[cod]
+**/.ipynb_checkpoints/
+
+# Local document-render QA output
+**/docx_render/
+**/pdf_rendered/
+**/*_render/
+**/*_rendered/
+
+# Local tooling and downloaded third-party corpora
+tools/
+**/movie-corpus.zip
+**/movie_dialogs_extracted/

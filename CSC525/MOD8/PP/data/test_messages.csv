@@ -1,0 +1,63 @@
+message_id,message,expected_route,case_type
+test_account_access_01,After too many attempts I can no longer sign into the dashboard.,account_access,in_domain
+test_account_access_02,The portal refuses every password I try.,account_access,in_domain
+test_account_access_03,I lost access to my profile after resetting my credentials.,account_access,in_domain
+test_account_access_04,Can someone help me recover my username and enter the account?,account_access,in_domain
+test_account_access_05,My authentication is failing even though the account should be active.,account_access,in_domain
+test_billing_invoice_01,I am confused because the balance on this month's statement increased.,billing_invoice,in_domain
+test_billing_invoice_02,Where can I download proof that my invoice was paid?,billing_invoice,in_domain
+test_billing_invoice_03,There is an unfamiliar fee listed on our latest bill.,billing_invoice,in_domain
+test_billing_invoice_04,Please resend invoice 775 to the correct billing contact.,billing_invoice,in_domain
+test_billing_invoice_05,"The payment went through, but my account still shows an amount due.",billing_invoice,in_domain
+test_human_escalation_01,This is the third time I have asked; transfer me to a manager.,human_escalation,in_domain
+test_human_escalation_02,"The suggested answer did not help, so I need a live agent.",human_escalation,in_domain
+test_human_escalation_03,I would like a person to take ownership of this urgent case.,human_escalation,in_domain
+test_human_escalation_04,Please stop the automated conversation and connect me with support.,human_escalation,in_domain
+test_human_escalation_05,Who can review a complaint that remains unresolved?,human_escalation,in_domain
+test_onboarding_help_01,My first day is Monday. What accounts and training should I set up?,onboarding_help,in_domain
+test_onboarding_help_02,A new teammate needs the getting-started steps for this system.,onboarding_help,in_domain
+test_onboarding_help_03,I have never used this portal and need the introductory checklist.,onboarding_help,in_domain
+test_onboarding_help_04,What orientation materials are required for a new hire?,onboarding_help,in_domain
+test_onboarding_help_05,Help me prepare system access and initial training for a new user.,onboarding_help,in_domain
+test_order_status_01,I am frustrated that my purchase still has no delivery update.,order_status,in_domain
+test_order_status_02,Has the warehouse fulfilled my order yet?,order_status,in_domain
+test_order_status_03,"The carrier number is available, but it shows no movement.",order_status,in_domain
+test_order_status_04,When should I expect the shipment from my recent purchase?,order_status,in_domain
+test_order_status_05,Please check whether order 9107 is still being processed.,order_status,in_domain
+test_policy_lookup_01,"Before taking action, I need to verify what the official policy permits.",policy_lookup,in_domain
+test_policy_lookup_02,Which documented rule covers approval of this type of exception?,policy_lookup,in_domain
+test_policy_lookup_03,Can you find the current SOP for responding to this case?,policy_lookup,in_domain
+test_policy_lookup_04,I need the compliance requirement and its controlled source document.,policy_lookup,in_domain
+test_policy_lookup_05,What procedure should the team follow before completing this request?,policy_lookup,in_domain
+test_returns_refunds_01,The product arrived damaged and I would like my money back.,returns_refunds,in_domain
+test_returns_refunds_02,How do I obtain a label to ship this item back?,returns_refunds,in_domain
+test_returns_refunds_03,I cancelled the order but have not received the credit.,returns_refunds,in_domain
+test_returns_refunds_04,Would this purchase qualify for an exchange instead of a refund?,returns_refunds,in_domain
+test_returns_refunds_05,Please explain the steps for returning something bought last week.,returns_refunds,in_domain
+test_service_scheduling_01,No one can be home Wednesday; can the service visit be moved?,service_scheduling,in_domain
+test_service_scheduling_02,I would like the earliest available technician appointment.,service_scheduling,in_domain
+test_service_scheduling_03,Please arrange an on-site service call for next month.,service_scheduling,in_domain
+test_service_scheduling_04,The scheduled time no longer works and needs to be changed.,service_scheduling,in_domain
+test_service_scheduling_05,Is there any availability on the repair calendar this Friday?,service_scheduling,in_domain
+test_technical_support_01,The screen freezes whenever I open the reporting feature.,technical_support,in_domain
+test_technical_support_02,"Installation finished, but the product will not start.",technical_support,in_domain
+test_technical_support_03,Can someone diagnose why the application keeps displaying error 51?,technical_support,in_domain
+test_technical_support_04,The device disconnects repeatedly and normal troubleshooting did not work.,technical_support,in_domain
+test_technical_support_05,I need product support because an important function stopped working.,technical_support,in_domain
+test_training_materials_01,I cannot remember this process. Is there a current user guide?,training_materials,in_domain
+test_training_materials_02,Could you share the approved lesson for learning this software?,training_materials,in_domain
+test_training_materials_03,Where is the reference manual for the new workflow?,training_materials,in_domain
+test_training_materials_04,The team needs a step-by-step tutorial before tomorrow's training.,training_materials,in_domain
+test_training_materials_05,Please send the latest documentation from the knowledge base.,training_materials,in_domain
+test___out_of_domain___01,How tall is the tallest building in the world?,__out_of_domain__,out_of_domain
+test___out_of_domain___02,Find me a flight from Denver to Chicago.,__out_of_domain__,out_of_domain
+test___out_of_domain___03,What is the score of today's baseball game?,__out_of_domain__,out_of_domain
+test___out_of_domain___04,Summarize the plot of a science fiction movie.,__out_of_domain__,out_of_domain
+test___out_of_domain___05,How do I grow tomatoes in a small garden?,__out_of_domain__,out_of_domain
+test___out_of_domain___06,Convert 200 degrees Fahrenheit to Celsius.,__out_of_domain__,out_of_domain
+test___out_of_domain___07,What time does the public library close?,__out_of_domain__,out_of_domain
+test___out_of_domain___08,Create a grocery list for a camping trip.,__out_of_domain__,out_of_domain
+test___out_of_domain___09,Who is the governor of Colorado?,__out_of_domain__,out_of_domain
+test___out_of_domain___10,Can you solve a quadratic equation for me?,__out_of_domain__,out_of_domain
+test___out_of_domain___11,Play some relaxing music.,__out_of_domain__,out_of_domain
+test___out_of_domain___12,What is the exchange rate between dollars and euros?,__out_of_domain__,out_of_domain

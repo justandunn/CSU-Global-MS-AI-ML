@@ -1,0 +1,11 @@
+actual_route,predicted_route,count
+account_access,account_access,3
+billing_invoice,billing_invoice,3
+human_escalation,human_escalation,3
+onboarding_help,onboarding_help,3
+order_status,order_status,3
+policy_lookup,policy_lookup,3
+returns_refunds,returns_refunds,3
+service_scheduling,service_scheduling,3
+technical_support,technical_support,3
+training_materials,training_materials,3

@@ -1,0 +1,22 @@
+CSC525 Module 8 Portfolio Project Validation
+missing_required_files: []
+training_rows: 80
+calibration_rows: 52
+test_rows: 62
+test_prediction_rows: 62
+training_evaluation_exact_overlap: 0
+distinct_routes: 10
+selected_config: character_3_5
+raw_route_accuracy: 0.92
+overall_decision_accuracy: 0.8226
+out_of_domain_rejection_rate: 0.75
+demo_exit_code: 0
+demo_exchange_count: 8
+demo_has_fallback: True
+model_has_keyword_bank_in_runtime_input: False
+docx_a11y_findings: 0
+docx_bytes: 43976
+pdf_bytes: 16481
+pdf_page_count: 9
+model_vocabulary_size: 4706
+Validation passed: True

@@ -1,0 +1,7 @@
+run,text_column,ngram_range,vocabulary_size,train_rows,test_rows,accuracy,macro_f1,mean_similarity,below_similarity_threshold
+sweep_sample_question_ngram1,sample_question,1-1,181,50,30,0.2333,0.2094,0.4093,0
+sweep_sample_question_ngram2,sample_question,1-2,456,50,30,0.1667,0.1555,0.3548,1
+sweep_sample_question_ngram3,sample_question,1-3,702,50,30,0.1667,0.1555,0.3034,4
+sweep_combined_text_ngram1,combined_text,1-1,212,50,30,1.0,1.0,0.7323,0
+sweep_combined_text_ngram2,combined_text,1-2,606,50,30,1.0,1.0,0.6665,0
+sweep_combined_text_ngram3,combined_text,1-3,1015,50,30,1.0,1.0,0.6427,0

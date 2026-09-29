@@ -1,0 +1,24 @@
+Module 5 Portfolio Milestone Retrieval Training Summary
+Generated UTC: 2026-06-21T04:50:09.330106+00:00
+
+Model: TF-IDF cosine-similarity retrieval baseline
+Training text field: combined_text
+Train rows: 50
+Test rows: 30
+Distinct routes: 10
+Vocabulary size: 212
+
+Hyperparameters:
+- Random seed: 525
+- Test source-group ratio: 0.4
+- N-gram range: (1, 1)
+- Max features: 2500
+- Draft similarity threshold: 0.2
+
+Evaluation:
+- Accuracy: 1.0
+- Macro precision: 1.0
+- Macro recall: 1.0
+- Macro F1: 1.0
+- Mean similarity: 0.7323
+- Correct rows: 30 of 30
